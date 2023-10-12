@@ -43,6 +43,7 @@ export interface FormattedInputProps extends Omit<TextInputProps, "onChange"> {
 const FormattedInput = forwardRef<HTMLInputElement, FormattedInputProps>(
   (
     {
+      className,
       defaultValue,
       emptyValue,
       format,
@@ -119,7 +120,7 @@ const FormattedInput = forwardRef<HTMLInputElement, FormattedInputProps>(
          * the handleChange function.
          */}
         <input
-          className={styles.numberInput}
+          className={styles.hiddenInput}
           id={inputId}
           readOnly
           ref={ref}
