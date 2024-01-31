@@ -1,0 +1,8 @@
+.template-root {
+  display: flex;
+  gap: var(--ye-spacing-rem-large);
+}
+
+.is-vertical {
+  flex-direction: column;
+}

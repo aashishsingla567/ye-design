@@ -26,7 +26,7 @@
     margin-bottom: var(--ye-spacing-em-xlarge);
   }
 
-  /* stylelint-disable-next-line block-no-empty */
   .is-vertical {
+    transform: rotate(90deg);
   }
 }
