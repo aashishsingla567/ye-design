@@ -26,7 +26,8 @@
   --mix-opacity-4: 95%;
 
   /* color definitions */
-  --ye-color-light: oklch(97.78% 0 0deg);
+  /* stylelint-disable-next-line @tiwariav/stylelint-config/only-predefined-colors */
+  --ye-color-light: oklch(100% 0 0deg);
   --ye-color-light-90: color-mix(
     in oklch,
     var(--ye-color-light),
